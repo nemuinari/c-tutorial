@@ -1,17 +1,12 @@
 #include <iostream>
-#include <functional>
-
-int Add(int x, int y) {
-    return x + y;
-}
+#include <array>
 
 int main() {
-    std::function<int(int, int)> f = Add;
-    int result = f(3, 5);
-    std::cout << result << std::endl;
+    std::array<int, 3> array_1 = {1, 2, 3};
+    std::array<int, 3> array_2 = array_1;
 
-    f = [](int x, int y) { return x * y; };  // ラムダ式を代入
-    std::cout << f(4, 7) << std::endl;
-
+    for (int i = 0; i < array_2.size(); ++i) {
+        std::cout << array_2[i] << std::endl;
+    }
     return 0;
 }
