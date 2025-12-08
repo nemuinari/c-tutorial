@@ -1,15 +1,16 @@
 #include <iostream>
-#include <array>
-#include <string>
-#include <tuple>
-#include <vector>
+#include <map>
+#include <unordered_map>
 
 int main() {
-    std::vector<int> x = {0, 1, 2, 3, 4};
+    std::unordered_map<std::string, int> persons = {
+        {"Alice", 18},
+        {"Bob", 20},
+    };
+    std::cout << "Alice: " << persons["Alice"] << "\n"
+              << "Bob: " << persons["Bob"] << std::endl;
 
-    x.emplace_back(5);  // 末尾に 5 を追加
-    for (int i = 0; i < x.size(); ++i) {
-        std::cout << x[i] << std::endl;
-    }
+    persons.insert({"Charlie", 22});
+    std::cout << "Charlie: " << persons["Charlie"] << "\n" << std::endl;
     return 0;
 }
