@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-    cout << "こんにちは" << endl << "AtCoder" << endl;
+    int A, B;
+    std::cin >> A >> B;
+    std::cout << A + B << std::endl;
     return 0;
 }
 
-// https://atcoder.jp/contests/apg4b/tasks
-// B
+// F
