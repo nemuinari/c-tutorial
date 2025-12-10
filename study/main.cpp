@@ -1,7 +1,7 @@
-#include <iostream>
+#include "p_1_2.cpp"
 
 int main() {
-    std::cout << "Hello, World!\n" << std::endl;
+    practice();
     return 0;
 }
-// P_1_1
+// p_1_2
