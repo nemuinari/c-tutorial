@@ -1,20 +1,7 @@
-#include <iostream>
-
-struct S {
-    int x;
-    int y;
-};
-
-union U {
-    S s;
-};
+#include "p_2/p_2.cpp"
 
 int main() {
-    U u = {};
-    u.s.x = 10;
-    u.s.y = 20;
-
-    std::cout << "u.s.x: " << u.s.x << ", u.s.y: " << u.s.y << std::endl;
+    practice();
     return 0;
 }
-// p.2.1.1
+// p.2.2.1
