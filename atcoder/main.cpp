@@ -2,21 +2,10 @@
 using namespace std;
 
 int main() {
-    std::string N;
-    std::cin >> N;
+    std::string str = "hello";
 
-    int num = std::stoi(N);
-    int total = 0;
-
-    for (int i = 0; i < N.size(); i++) {
-        total += N[i] - '0';
-    }
-
-    if (num % total == 0) {
-        std::cout << "Yes" << std::endl;
-    } else {
-        std::cout << "No" << std::endl;
-    }
+    std::cout << str.at(0) << endl;
+    std::cout << str.at(1) << endl;
 
     return 0;
 }
