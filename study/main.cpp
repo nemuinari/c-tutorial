@@ -1,7 +1,7 @@
-#include "p_3/p_6.cpp"
+#include "p_3/p_7.cpp"
 
 int main() {
     practice();
     return 0;
 }
-// p.3.6 this-> pointer example
+// p.3.7 クラス、構造体、共用体
