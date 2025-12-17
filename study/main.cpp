@@ -1,7 +1,7 @@
-#include "p_3/p_4.cpp"
+#include "p_3/p_5.cpp"
 
 int main() {
     practice();
     return 0;
 }
-// p.3.4 NSDMI
+// p.3.5 基底クラスと派生クラス
