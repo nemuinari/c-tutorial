@@ -2,13 +2,16 @@
 using namespace std;
 
 int main() {
-    std::string A;
-    std::string s;
-    std::string C;
+    int A, B;
+    char op;
 
-    std::cin >> A >> s >> C; 
-    std::cout << A.at(0) << s.at(0) << C.at(0);
+    std::cin >> A >> op >> B;
+    if (op == '+'){
+        std::cout << A + B << std::endl;
+    } else {
+        std::cout << A - B << std::endl;
+    }
 
     return 0;
 }
-// A - AtCoder *** Contes 
+// A - Addition and Subtraction Easy
