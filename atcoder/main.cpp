@@ -2,16 +2,14 @@
 using namespace std;
 
 int main() {
-    int A, B;
-    char op;
+    std::string s;
+    int i;
 
-    std::cin >> A >> op >> B;
-    if (op == '+'){
-        std::cout << A + B << std::endl;
-    } else {
-        std::cout << A - B << std::endl;
-    }
+    std::cin >> s;
+    std::cin >> i;
+
+    std::cout << s.at(i - 1) << endl;
 
     return 0;
 }
-// A - Addition and Subtraction Easy
+// A - 添字
