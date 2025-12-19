@@ -2,14 +2,15 @@
 using namespace std;
 
 int main() {
-    std::string s;
-    int i;
+    std::string S; 
+    std::cin >> S;
 
-    std::cin >> s;
-    std::cin >> i;
-
-    std::cout << s.at(i - 1) << endl;
+    if (S.at(S.size() - 1) == 'T') {
+        std::cout << "YES" << std::endl;
+    } else {
+        std::cout << "NO" << std::endl;
+    }
 
     return 0;
 }
-// A - 添字
+// A - お茶 
