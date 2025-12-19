@@ -1,9 +1,7 @@
-#include "p_3/p_ex3.cpp"
+#include "p_4/p_4.cpp"
 
 int main() {
     practice();
     return 0;
-}
-// 3 まとめ
-// git テスト3
-
+} 
+// 4.4
