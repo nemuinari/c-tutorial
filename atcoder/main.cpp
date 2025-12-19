@@ -2,15 +2,11 @@
 using namespace std;
 
 int main() {
-    std::string S; 
-    std::cin >> S;
+    std::string W;
+    std::cin >> W;
 
-    if (S.at(S.size() - 1) == 'T') {
-        std::cout << "YES" << std::endl;
-    } else {
-        std::cout << "NO" << std::endl;
-    }
+    std::cout << W + 's' << std::endl;
 
     return 0;
 }
-// A - お茶 
+// M - A - 複数形 
