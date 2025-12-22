@@ -18,4 +18,13 @@ void practice() {
     std::cout << array[2] << std::endl;
     std::cout << array[3] << std::endl;
     std::cout << array[4] << std::endl;
+
+    // ポインターで列挙
+    int* ptr = array;
+    std::cout << " -- pointer -- " << std::endl;
+    std::cout << ptr[0] << std::endl;
+    std::cout << ptr[1] << std::endl;
+    std::cout << ptr[2] << std::endl;
+    std::cout << ptr[3] << std::endl;
+    std::cout << ptr[4] << std::endl;
 }
