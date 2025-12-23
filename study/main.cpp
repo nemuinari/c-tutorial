@@ -1,7 +1,7 @@
-#include "p_5/p_2.cpp"
+#include "p_5/p_3.cpp"
 
 int main() {
-    practice();
-    return 0;
+  practice();
+  return 0;
 }
-// オブジェクトの配列
+// new, delete

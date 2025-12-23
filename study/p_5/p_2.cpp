@@ -24,8 +24,8 @@ void practice() {
   pro.push_back(product{1, "smart phone", 600000});
   pro.push_back(product{2, "tablet", 350000});
 
-  product_list[0].show();
-  product_list[1].show();
+  pro[0].show();
+  pro[1].show();
 }
 
 /*
