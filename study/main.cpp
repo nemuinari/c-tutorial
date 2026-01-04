@@ -1,4 +1,4 @@
-#include "p6/p9.cpp"
+#include "p6/ex2.cpp"
 
 // execution entry point
 int main()
