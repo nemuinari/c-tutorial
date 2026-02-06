@@ -1,11 +1,34 @@
 #include <stdio.h>
 
-int main(void) {
-    int n = 0;
+void forloop() {
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", i + 1);
+    }
+    printf("\n");
+}
+
+void whileloop() {
+    int i = 0;
+    while (i < 10) {
+        printf("%d ", i + 1);
+        i++;
+    }
+    printf("\n");
+}
+
+void dowhileloop() {
+    int i = 0;
     do {
-        n += 1;
-    } while (++n <= 0);
-    printf("%i\n", n);  // Output: 2
+        printf("%d ", i + 1);
+        i++;
+    } while (i < 10);
+    printf("\n");
+}
+
+int main(void) {
+    forloop();
+    whileloop();
+    dowhileloop();
 
     return 0;
 }
