@@ -25,10 +25,23 @@ void dowhileloop() {
     printf("\n");
 }
 
+void example_1() {
+    int a[][1][3] = {{1, 2, 3}, {4, 5, 6}};
+
+    do {
+        while (a[0][0][0] <= 6) {
+            printf("%d ", a[0][0][0]);
+            a[0][0][0]++;
+        }
+    } while (a[0][0][0] <= 6);
+    printf("\n");
+}
+
 int main(void) {
     forloop();
     whileloop();
     dowhileloop();
+    example_1();
 
     return 0;
 }
